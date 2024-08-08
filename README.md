@@ -1,4 +1,4 @@
-# Description
+# Overview
 The focus of this study is to report the performance of Upper Confidence Bound (UCB) and discounted UCB with different choices of the discount factor (γ).
 
 ## Theoretical Aspect of the Effect of γ
