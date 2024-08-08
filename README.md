@@ -18,7 +18,7 @@ This repository contains the implementation and performance analysis of various 
 |         20         |       214.90      |
 |         30         |       334.02      |
 
-![Explore then Commit accumulated regret](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig1.png)
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig1.png" alt="Explore then Commit accumulated regret" width="800">
 
 </div>
 
@@ -37,7 +37,7 @@ $$
 | 0.5                | 977.03            |
 | 1.0                | 1906.65           |
 
-![UCB Bandit accumulated regret](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig2.png)
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig2.png" alt="UCB Bandit accumulated regret" width="800">
 
 </div>
 
@@ -56,7 +56,7 @@ $$
 |:------------------:|
 |  100              |
 
-![Thompson Sampling accumulated regret](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig3.png)
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig3.png" alt="Thompson Sampling accumulated regret" width="400">
 
 </div>
 
@@ -83,8 +83,8 @@ $$
 | 1.5                | 177.89            |
 | 2.5                | 487.73            |
 
-![Linear UCB accumulated regret](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig4.png)
-![Linear UCB estimation error](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig5.png)
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig4.png" alt="Linear UCB accumulated regret" width="800">
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig5.png" alt="Linear UCB estimation error" width="800">
 
 </div>
 
@@ -102,8 +102,9 @@ $$
 |:------------------:|
 | 1098.24            |
 
-![Linear Thompson Sampling accumulated regret](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig6.png)
-![Linear Thompson Sampling estimation error](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig7.png)
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig6.png" alt="Linear Thompson Sampling accumulated regret" width="400">
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig7.png" alt="Linear Thompson Sampling estimation error" width="400">
+
 
 </div>
 
@@ -136,8 +137,8 @@ $$
 | 0.5                | 727.63            |
 | 1.5                | 5948.48           |
 
-![GLM-UCB accumulated regret](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig8.png)
-![GLM-UCB estimation error](https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig9.png)
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig8.png" alt="GLM-UCB accumulated regret" width="800">
+<img src="https://github.com/neurokimchi/comparison-bandits/blob/master/figures/fig9.png" alt="GLM-UCB estimation error" width="800">
 
 </div>
 
