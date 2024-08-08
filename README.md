@@ -41,21 +41,21 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 - **Figure 1**: Cumulative Regret of UCB
 
-![Cumulative Regret of UCB](https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig1.png)
+<img src="https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig1.png" alt="Cumulative Regret of UCB" width="800">
 
 - **Figure 2**: Cumulative Regret of Discounted UCB with different γ values:
 
   - (a) γ = 0.1
   
-  ![Cumulative Regret of DUCB (γ = 0.1)](https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig2.png)
+<img src="https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig2.png" alt="Cumulative Regret of DUCB (γ = 0.1)" width="800">
   
   - (b) γ = 0.5
-  
-  ![Cumulative Regret of DUCB (γ = 0.5)](https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig3.png)
+
+<img src="https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig3.png" alt="Cumulative Regret of DUCB (γ = 0.5)" width="800">
   
   - (c) γ = 0.9
-  
-  ![Cumulative Regret of DUCB (γ = 0.9)](https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig4.png)
+
+<img src="https://github.com/neurokimchi/discountedUCB/blob/master/figures/fig4.png" alt="Cumulative Regret of DUCB (γ = 0.9)" width="800">
 
 ---
 
