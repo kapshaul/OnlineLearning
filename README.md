@@ -31,11 +31,11 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 | Trial | UCB | DUCB (γ = 0.1) | DUCB (γ = 0.5) | DUCB (γ = 0.9) |
 |-------|:---:|:--------------:|:--------------:|:--------------:|
-| 1     | <div align="center">11</div> | <div align="center">3</div> | <div align="center">4</div> | <div align="center">6</div> |
-| 2     | <div align="center">37</div> | <div align="center">3</div> | <div align="center">2</div> | <div align="center">6</div> |
-| 3     | <div align="center">59</div> | <div align="center">4</div> | <div align="center">2</div> | <div align="center">7</div> |
-| 4     | <div align="center">8</div> | <div align="center">3</div> | <div align="center">2</div> | <div align="center">3</div> |
-| 5     | <div align="center">12</div> | <div align="center">2</div> | <div align="center">2</div> | <div align="center">7</div> |
+| 1     | 11  |  3             | 4              | 6              |
+| 2     | 37  |  3             | 2              | 6              |
+| 3     | 59  |  4             | 2              | 7              |
+| 4     | 8   |  3             | 2              | 3              |
+| 5     | 12  |  2             | 2              | 7              |
 
 ## Cumulative Regret Plots
 
