@@ -79,8 +79,6 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 </div>
 
----
-
 ## Conclusion
 
 The results suggest that discounted UCB with a properly chosen γ can significantly reduce cumulative regret compared to standard UCB, especially in environments with sudden changes.
