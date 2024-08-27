@@ -18,7 +18,7 @@ This repository includes implementations and performance reports of several band
 ## Implementation
 To simulate a specific algorithm, edit the `Simulation.py` script by enabling the desired algorithm and disabling the others.
 
-For example, to run the UCB algorithm with alpha = 0.5, update the code as follows:
+For example, to run the UCB algorithm with $\alpha = 0.5$, update the code as follows:
 ```python
 ## Initiate Bandit Algorithms ##
 algorithms = {}
