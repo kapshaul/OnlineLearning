@@ -15,6 +15,9 @@ This repository includes implementations and performance reports of several band
 
 [6. Generalized Linear Model Bandit (GLM)](#6-generalized-linear-model-glm-bandit-non-linear-bandit)
 
+## Implementation
+
+To run the simulation, execute the `Simulation.py` script.
 
 ## 1. Explore-then-Commit
 ### Result
