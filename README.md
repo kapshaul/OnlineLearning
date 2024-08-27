@@ -3,7 +3,9 @@ The focus of this study is to report the performance of Upper Confidence Bound (
 
 ## Implementation
 
-To run the simulation, execute the `Simulation.py` script
+To run the simulation, execute the `Simulation.py` script.
+
+---
 
 ## Theoretical Aspect of the Effect of γ
 
