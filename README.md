@@ -1,6 +1,10 @@
 # Overview
 The focus of this study is to report the performance of Upper Confidence Bound (UCB) and discounted UCB with different choices of the discount factor (γ).
 
+## Implementation
+
+To run the simulation, execute the `Simulation.py` script
+
 ## Theoretical Aspect of the Effect of γ
 
 In discounted UCB, recent and previous observations are weighted differently based on the discount factor γ. The weight for an observation decreases as it gets further in the past. This is represented by the term γ<sup>t−j</sup>, which is large when j is close to t, meaning recent observations significantly affect the estimate μ̂. Conversely, past observations far from the present time sequence t have minimal impact.
