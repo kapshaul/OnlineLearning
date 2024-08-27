@@ -29,7 +29,7 @@ To run the simulation, execute the `Simulation.py` script.
 
 ## Results
 
-## Cumulative Regret of UCB and Discounted UCB
+### Cumulative Regret of UCB and Discounted UCB
 
 The table below summarizes the cumulative regrets for UCB and discounted UCB with different γ values across multiple trials.
 
@@ -45,7 +45,7 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 </div>
 
-## Cumulative Regret Plots
+### Cumulative Regret Plots
 
 <div align="center">
 
@@ -81,6 +81,6 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 ---
 
-# Conclusion
+## Conclusion
 
 The results suggest that discounted UCB with a properly chosen γ can significantly reduce cumulative regret compared to standard UCB, especially in environments with sudden changes.
