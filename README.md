@@ -49,9 +49,13 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 <div align="center">
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/fig1.png" alt="Cumulative Regret of UCB" width="700">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/UCB1.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/UCB2.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/UCB3.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/UCB4.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/UCB5.png" width="250">
 
-**Figure 1**: Cumulative regret of UCB
+**Figure 1**: Cumulative regrets of UCB
 
 <br>
 <br>
@@ -59,21 +63,33 @@ The table below summarizes the cumulative regrets for UCB and discounted UCB wit
 
 (a) γ = 0.1
   
-<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/fig2.png" alt="Cumulative Regret of DUCB (γ = 0.1)" width="700">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB1_01.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB2_01.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB3_01.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB4_01.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB5_01.png" width="250">
 
 <br>
 <br>
 
 (b) γ = 0.5
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/fig3.png" alt="Cumulative Regret of DUCB (γ = 0.5)" width="700">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB1_05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB2_05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB3_05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB4_05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB5_05.png" width="250">
 
 <br>
 <br>
 
 (c) γ = 0.9
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/fig4.png" alt="Cumulative Regret of DUCB (γ = 0.9)" width="700">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB1_09.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB2_09.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB3_09.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB4_09.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/discountedUCB/figures/DUCB5_09.png" width="250">
 
 **Figure 2**: Cumulative regret of discounted UCB with different γ values
 
