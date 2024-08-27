@@ -1,7 +1,7 @@
 # Comparison of Bandit Algorithms
 
 ## Overview
-This repository includes implementations and performance analyses of several bandit algorithms. The study covers:
+This repository includes implementations and performance reports of several bandit algorithms. The study covers:
 
 [1. Explore-then-Commit](#1-explore-then-commit)
 
@@ -26,7 +26,13 @@ This repository includes implementations and performance analyses of several ban
 |         20         |       214.90      |
 |         30         |       334.02      |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig1.png" alt="Explore then Commit accumulated regret" width="800">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/ETC10.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/ETC20.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/ETC30.png" width="250">
+
+(a) m = 10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) m = 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) m = 30
 
 **Figure 1**: Explore then Commit accumulated regret
 
@@ -47,7 +53,13 @@ $$
 | 0.5                | 977.03            |
 | 1.0                | 1906.65           |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig2.png" alt="UCB Bandit accumulated regret" width="800">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/UCB01.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/UCB05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/UCB1.png" width="250">
+
+(a) $\alpha$ = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) $\alpha$ = 1
 
 **Figure 2**: UCB Bandit accumulated regret
 
@@ -68,7 +80,7 @@ $$
 |:------------------:|
 |  100              |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig3.png" alt="Thompson Sampling accumulated regret" width="400">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/TS.png" width="300">
 
 **Figure 3**: Thompson Sampling accumulated regret
 
@@ -97,10 +109,27 @@ $$
 | 1.5                | 177.89            |
 | 2.5                | 487.73            |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig4.png" alt="Linear UCB accumulated regret" width="800">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig5.png" alt="Linear UCB estimation error" width="800">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB15.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB25.png" width="250">
 
-**Figure 4**: Linear UCB accumulated regret and estimation error
+(a) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) $\alpha$ = 1.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) $\alpha$ = 2.5
+
+**Figure 4**: Linear UCB accumulated regret
+
+<br>
+
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB05_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB15_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB25_est.png" width="250">
+
+(a) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) $\alpha$ = 1.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) $\alpha$ = 2.5
+
+**Figure 5**: Linear UCB estimation error
 
 </div>
 
@@ -118,10 +147,10 @@ $$
 |:------------------:|
 | 1098.24            |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig6.png" alt="Linear Thompson Sampling accumulated regret" width="400">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig7.png" alt="Linear Thompson Sampling estimation error" width="400">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinTS.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinTS_est.png" width="250">
 
-**Figure 5**: Linear Thompson Sampling accumulated regret and estimation error
+**Figure 6**: Linear Thompson Sampling accumulated regret and estimation error
 
 </div>
 
@@ -154,9 +183,26 @@ $$
 | 0.5                | 727.63            |
 | 1.5                | 5948.48           |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig8.png" alt="GLM-UCB accumulated regret" width="800">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig9.png" alt="GLM-UCB estimation error" width="800">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB01.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB05.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB15.png" width="250">
 
-**Figure 5**: GLM-UCB accumulated regret and estimation error
+(a) $\alpha$ = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) $\alpha$ = 1.5
+
+**Figure 7**: GLM-UCB accumulated regret
+
+<br>
+
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB01_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB05_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB15_est.png" width="250">
+
+(a) $\alpha$ = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) $\alpha$ = 1.5
+
+**Figure 8**: GLM-UCB estimation error
 
 </div>
