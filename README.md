@@ -1,13 +1,9 @@
-# Overview
+# Discounted UCB
+
+## Overview
 The focus of this study is to report the performance of Upper Confidence Bound (UCB) and discounted UCB with different choices of the discount factor (γ).
 
-## Implementation
-
-To run the simulation, execute the `Simulation.py` script.
-
----
-
-## Theoretical Aspect of the Effect of γ
+### 1. Theoretical Aspect of the Effect of γ
 
 In discounted UCB, recent and previous observations are weighted differently based on the discount factor γ. The weight for an observation decreases as it gets further in the past. This is represented by the term γ<sup>t−j</sup>, which is large when j is close to t, meaning recent observations significantly affect the estimate μ̂. Conversely, past observations far from the present time sequence t have minimal impact.
 
@@ -16,7 +12,7 @@ In discounted UCB, recent and previous observations are weighted differently bas
 
 When the environment changes suddenly after a time step T/2, relying on previous observations becomes less effective. Thus, a properly chosen γ in discounted UCB can outperform standard UCB by reducing dependence on outdated observations.
 
-## Empirical Aspect of the Effect of γ
+### 2. Empirical Aspect of the Effect of γ
 
 Empirical results show that:
 
@@ -27,9 +23,11 @@ Empirical results show that:
 
 Given the sudden change in the reward function after T/2, past observations become less relevant, making discounted UCB a better choice than UCB. However, γ = 0.9 might be too large as it overly relies on past observations.
 
----
+## Implementation
 
-# Results
+To run the simulation, execute the `Simulation.py` script.
+
+## Results
 
 ## Cumulative Regret of UCB and Discounted UCB
 
