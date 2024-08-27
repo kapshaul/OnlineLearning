@@ -1,12 +1,20 @@
-# Overview
-This repository contains the implementation and performance analysis of various bandit algorithms. The study involves:
+# Comparison of Bandit Algorithms
 
-1. Explore-then-Commit
-2. Upper Confidence Bound (UCB)
-3. Thompson Sampling
-4. Linear UCB (LinUCB)
-5. Linear Thompson Sampling (LinTS)
-6. Non-linear Bandits (Bonus)
+## Overview
+This repository includes implementations and performance analyses of several bandit algorithms. The study covers:
+
+[1. Explore-then-Commit](#1-explore-then-commit)
+
+[2. Upper Confidence Bound (UCB)](#2-upper-confidence-bound-ucb)
+
+[3. Thompson Sampling](#3-thompson-sampling)
+
+[4. Linear UCB (LinUCB)](#4-linear-ucb-linucb)
+
+[5. Linear Thompson Sampling (LinTS)](#5-linear-thompson-sampling-lints)
+
+[6. Generalized Linear Model (GLM) Bandit](#6-generalized-linear-model-glm-bandit-non-linear-bandit)
+
 
 ## 1. Explore-then-Commit
 ### Result
@@ -19,6 +27,8 @@ This repository contains the implementation and performance analysis of various 
 |         30         |       334.02      |
 
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig1.png" alt="Explore then Commit accumulated regret" width="800">
+
+**Figure 1**: Explore then Commit accumulated regret
 
 </div>
 
@@ -39,6 +49,8 @@ $$
 
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig2.png" alt="UCB Bandit accumulated regret" width="800">
 
+**Figure 2**: UCB Bandit accumulated regret
+
 </div>
 
 ## 3. Thompson Sampling
@@ -57,6 +69,8 @@ $$
 |  100              |
 
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig3.png" alt="Thompson Sampling accumulated regret" width="400">
+
+**Figure 3**: Thompson Sampling accumulated regret
 
 </div>
 
@@ -86,6 +100,8 @@ $$
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig4.png" alt="Linear UCB accumulated regret" width="800">
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig5.png" alt="Linear UCB estimation error" width="800">
 
+**Figure 4**: Linear UCB accumulated regret and estimation error
+
 </div>
 
 ## 5. Linear Thompson Sampling (LinTS)
@@ -105,10 +121,11 @@ $$
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig6.png" alt="Linear Thompson Sampling accumulated regret" width="400">
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig7.png" alt="Linear Thompson Sampling estimation error" width="400">
 
+**Figure 5**: Linear Thompson Sampling accumulated regret and estimation error
 
 </div>
 
-## 6. Generalized Linear Model (GLM) Bandits: Non-linear Bandits
+## 6. Generalized Linear Model (GLM) Bandit: Non-linear Bandit
 ### Modified Non-LinearReward Function For Testing
 
 $$
@@ -140,5 +157,6 @@ $$
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig8.png" alt="GLM-UCB accumulated regret" width="800">
 <img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/figures/fig9.png" alt="GLM-UCB estimation error" width="800">
 
-</div>
+**Figure 5**: GLM-UCB accumulated regret and estimation error
 
+</div>
