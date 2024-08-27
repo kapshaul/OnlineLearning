@@ -13,7 +13,7 @@ This repository includes implementations and performance analyses of several ban
 
 [5. Linear Thompson Sampling (LinTS)](#5-linear-thompson-sampling-lints)
 
-[6. Generalized Linear Model (GLM) Bandit](#6-generalized-linear-model-glm-bandit-non-linear-bandit)
+[6. Generalized Linear Model Bandit (GLM)](#6-generalized-linear-model-glm-bandit-non-linear-bandit)
 
 
 ## 1. Explore-then-Commit
