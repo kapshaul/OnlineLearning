@@ -16,8 +16,23 @@ This repository includes implementations and performance reports of several band
 [6. Generalized Linear Model Bandit (GLM)](#6-generalized-linear-model-glm-bandit-non-linear-bandit)
 
 ## Implementation
+To simulate a specific algorithm, edit the `Simulation.py` script by enabling the desired algorithm and disabling the others.
 
-To run the simulation, execute the `Simulation.py` script.
+For example, to run the UCB algorithm with alpha = 0.5, update the code as follows:
+```python
+## Initiate Bandit Algorithms ##
+algorithms = {}
+
+#algorithms['EpsilonGreedyLinearBandit'] = EpsilonGreedyLinearBandit(dimension=context_dimension, lambda_=0.1, epsilon=None)
+#algorithms['EpsilonGreedyMultiArmedBandit'] = EpsilonGreedyMultiArmedBandit(num_arm=n_articles, epsilon=0.1)
+#algorithms['ExplorethenCommit'] = ExplorethenCommit(num_arm=n_articles, m=30)
+algorithms['UCBBandit'] = UCBBandit(num_arm=n_articles, alpha=0.5)
+#algorithms['ThompsonSamplingGaussianMAB'] = ThompsonSamplingGaussianMAB(num_arm=n_articles)
+#algorithms['LinearUCBBandit'] = LinearUCBBandit(dimension=context_dimension, lambda_=0.1, alpha=0.5) #delta=0.05, alpha=2.358
+#algorithms['LinearThompsonSamplingMAB'] = LinearThompsonSamplingMAB(dimension=context_dimension, lambda_=0.1)
+```
+
+After selecting your algorithm, run the `Simulation.py` script.
 
 ## 1. Explore-then-Commit
 ### Result
