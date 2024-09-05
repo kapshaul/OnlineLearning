@@ -25,7 +25,8 @@ Given the sudden change in the reward function after T/2, past observations beco
 
 ## Implementation
 
-To run the simulation, execute the `Simulation.py` script.
+1. Clone the repository.
+2. To run the simulation, execute the `Simulation.py` script.
 
 ## Results
 
