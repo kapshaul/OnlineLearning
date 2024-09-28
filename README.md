@@ -44,9 +44,9 @@ After selecting your algorithm, run the `Simulation.py` script.
 |         20         |       214.90      |
 |         30         |       334.02      |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/ETC10.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/ETC20.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/ETC30.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/ETC10.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/ETC20.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/ETC30.png" width="250">
 
 (a) m = 10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 (b) m = 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -71,9 +71,9 @@ $$
 | 0.5                | 977.03            |
 | 1.0                | 1906.65           |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/UCB01.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/UCB05.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/UCB1.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/UCB01.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/UCB05.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/UCB1.png" width="250">
 
 (a) $\alpha$ = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 (b) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -98,7 +98,7 @@ $$
 |:------------------:|
 |  100              |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/TS.png" width="300">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/TS.png" width="300">
 
 **Figure 3**: Thompson Sampling accumulated regret
 
@@ -127,9 +127,9 @@ $$
 | 1.5                | 177.89            |
 | 2.5                | 487.73            |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB05.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB15.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB25.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinUCB05.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinUCB15.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinUCB25.png" width="250">
 
 (a) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 (b) $\alpha$ = 1.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -139,9 +139,9 @@ $$
 
 <br>
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB05_est.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB15_est.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinUCB25_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinUCB05_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinUCB15_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinUCB25_est.png" width="250">
 
 (a) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 (b) $\alpha$ = 1.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -165,8 +165,8 @@ $$
 |:------------------:|
 | 1098.24            |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinTS.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/LinTS_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinTS.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/LinTS_est.png" width="250">
 
 **Figure 6**: Linear Thompson Sampling accumulated regret and estimation error
 
@@ -201,9 +201,9 @@ $$
 | 0.5                | 727.63            |
 | 1.5                | 5948.48           |
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB01.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB05.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB15.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/GLMUCB01.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/GLMUCB05.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/GLMUCB15.png" width="250">
 
 (a) $\alpha$ = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 (b) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -213,9 +213,9 @@ $$
 
 <br>
 
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB01_est.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB05_est.png" width="250">
-<img src="https://github.com/kapshaul/OnlinLearning/blob/bandits-comparison-analysis/img/GLMUCB15_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/GLMUCB01_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/GLMUCB05_est.png" width="250">
+<img src="https://github.com/kapshaul/OnlineLearning/blob/bandits-comparison-analysis/img/GLMUCB15_est.png" width="250">
 
 (a) $\alpha$ = 0.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 (b) $\alpha$ = 0.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
